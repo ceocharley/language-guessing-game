@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fff51482f8.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" defer src="game.js"></script>
+</head>
+<body>
+    <div id="not-started">
+        <div class="container">
+            <h1>Language Guessing Game</h1>
+            <p>Guess the language of text; the more you guess, the higher your score!</p>
+            <button id="start" class="primary">Play <i class="fas fa-play"></i> </button>
+        </div>
+    </div>
+    <div id="game">
+        <div class="container">
+            <div id="game-container">
+                <div id="game-text">
+                    <h2>Guess the language</h2>
+                    <p id="text"><i class="fas fa-language"></i>  ❝<span id="language"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sint corrupti ad laboriosam ipsam rem quam, enim eius aspernatur itaque provident doloribus, dolore praesentium fugit iste quas earum deserunt commodi?</span>❞</p>
+                </div>
+                <div id="game-input">
+                    <!-- <div class="time">
+                        <i class="fas fa-stopwatch"></i> <strong id="countdown">5</strong> Get a good look<span id="elipse">...</span>
+                    </div> -->
+                    <div class="choices">
+                        <button class="choice" id="choice1">English</button>
+                        <button class="choice" id="choice2">French</button>
+                        <button class="choice" id="choice3">Spanish</button>
+                        <button class="choice" id="choice4">Italian</button>
+                    </div>
+                </div>
+                <div id="game-score">
+                    <p>Score: <span id="score">0</span></p>
+                    <p><small>Highest: <span id="highest">0</span></small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; <script>document.write(new Date().getFullYear())</script> <a target="_blank" href="https://github.com/ceocharley">Charley</a><br>litearlly made in 15 minutes..<br> and it's <a target="_blank" href="https://github.com/ceocharley/language-guessing-game">open source</a> 💖
+    </div>
+</body>
+</html>
