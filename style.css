@@ -90,3 +90,13 @@ button {
     border-bottom: 1px solid var(--primary);
     text-decoration: none;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #121212;
+        --bg-accent: #333;
+        --text: #f5f5f5;
+        --text-accent: #e7e7e7;
+        --primary: #2920DB;
+    }
+}

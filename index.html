@@ -9,10 +9,15 @@
     <script type="text/javascript" defer src="game.js"></script>
 </head>
 <body>
+    <noscript>
+        <div class="container">
+            This game requires JavaScript to run. Please enable JavaScript and refresh the page.
+        </div>
+    </noscript>
     <div id="not-started">
         <div class="container">
             <h1>Language Guessing Game</h1>
-            <p>Guess the language of text; the more you guess, the higher your score!</p>
+            <p style="max-width: 600px; text-align: center;">Get given a string of text randomly selected from a list of over <span id="lang-number">..</span> languages. The more you get right, the higher your score. <small>Can you beat your highest score?</small></p>
             <button id="start" class="primary">Play <i class="fas fa-play"></i> </button>
         </div>
     </div>
@@ -22,6 +27,7 @@
                 <div id="game-text">
                     <h2>Guess the language</h2>
                     <p id="text"><i class="fas fa-language"></i>  ❝<span id="language"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sint corrupti ad laboriosam ipsam rem quam, enim eius aspernatur itaque provident doloribus, dolore praesentium fugit iste quas earum deserunt commodi?</span>❞</p>
+                    <p><small id="eng"></small></p>
                 </div>
                 <div id="game-input">
                     <!-- <div class="time">
