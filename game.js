@@ -272,6 +272,7 @@ highscoreDisplay.textContent = highscore;
 const english = document.getElementById('eng');
 
 function startGame() {
+    new Audio('sounds/pop.mp3').play();
     samples = ['sample1', 'sample2', 'sample3', 'sample4'];
     currentLanguage = Math.floor(Math.random() * languages.length);
     currentSample = Math.floor(Math.random() * samples.length);
@@ -307,6 +308,7 @@ function updateScore() {
 }
 
 function correct(button) {
+    new Audio('sounds/correct.mp3').play();
     button.style.backgroundColor = 'green';
     updateScore();
     localStorage.setItem('highscore', score);
@@ -319,6 +321,7 @@ function correct(button) {
 }
 
 function incorrect(button) {
+    new Audio('sounds/incorrect.mp3').play();
     button.style.backgroundColor = 'red';
     score = 0;
     scoreDisplay.textContent = score;
