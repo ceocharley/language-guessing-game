@@ -67,6 +67,17 @@ const languages = [
         sample4_en: 'Being deeply loved by someone gives you strength, while loving someone deeply gives you courage." - Lao Tzu',
     },
     {
+        name: 'Urdu',
+        sample1: 'دُنیا کی کوئی قُوت پاکستان کو نہیں مٹا سکتی ہے - محمد علی جناح',
+        sample1_en: 'There is no power on Earth that can undo Pakistan." - Muhammad Ali Jinnah',
+        sample2: 'قومیں شاعروں کے دلوں میں پیدا ہوتی ہیں، وہ سیاسیوں کے ہاتھوں میں ترقی کرتی ہیں اور مرتی ہیں - محمد اقبال',
+        sample2_en: 'Nations are born in the hearts of poets, they prosper and die in the hands of politicians." - Muhammad Iqbal',
+        sample3: 'لوگ تعلیم یافتہ ہوگئے ہیں، لیکن ابھی تک انسان نہیں بنے ہیں۔ - عبدالستار ایدھی',
+        sample3_en: 'People have become educated, but have not yet become human." - Abdul Sattar Edhi',
+        sample4: 'تمہارے خوابوں کے لئے مفاہمت کرو، لیکن اپنے خوابوں پر مفاہمت کبھی نہ کرو۔ - عمران خان',
+        sample4_en: 'Compromise for your dream, but never compromise on your dream." - Imran Khan',
+    },
+    {
         name: 'French',
         sample1: 'La vie est ce qui arrive quand on est occupé à faire d’autres plans." - John Lennon',
         sample1_en: 'Life is what happens when you are busy making other plans." - John Lennon',
